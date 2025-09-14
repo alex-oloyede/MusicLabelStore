@@ -4,37 +4,37 @@ const products = [
         id: 1,
         name: "Music 1",
         price: 9.99,
-        image: "label1.webp"
+        image: "src/label1.webp"
     },
     {
         id: 2,
         name: "Music 2",
         price: 19.99,
-        image: "label2.jpg"
+        image: "src/label2.jpg"
     },
     {
         id: 3,
         name: "Podcast 1",
         price: 9.99,
-        image: "label3.webp"
+        image: "src/label3.webp"
     },
     {
         id: 4,
         name: "Music 3",
         price: 7.99,
-        image: "label4.jpg"
+        image: "src/label4.jpg"
     },
     {
         id: 5,
         name: "Podcast 2",
         price: 5.99,
-        image: "label5.jpg"
+        image: "src/label5.jpg"
     },
     {
         id: 6,
         name: "Music 4",
         price: 6.99,
-        image: "label6.jpg"
+        image: "src/label6.jpg"
     }
 ];
 
@@ -265,4 +265,5 @@ function clearCart() {
 }
 
 // Initialize the store when the page loads
+
 document.addEventListener('DOMContentLoaded', initStore);
